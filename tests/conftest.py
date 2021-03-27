@@ -15,5 +15,3 @@ def app():
     app.config['MFLIX_NS'] = config['PROD']['MFLIX_NS']
     app.config['MFLIX_DB_URI'] = config['TEST']['MFLIX_DB_URI']
     return app
-def Test():
-    pass
